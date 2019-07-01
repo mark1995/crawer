@@ -11,7 +11,6 @@ func (err Errno) Error() string {
 	return err.Message
 }
 
-// Err represents an error
 type Err struct {
 	Code    int
 	Message string
